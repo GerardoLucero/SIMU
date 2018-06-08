@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Simu</string>
+    <string name="app_name_undeline"><u>SIMU</u></string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="logOut">Cerrar Sesión</string>
+    <string name="radios">NanoStations M5</string>
+    <string name="bitacora">Bitácora</string>
+    <string name="speed">Speed Test</string>
+    <string name="config">Configuración</string>
+    <string name="bienvenido">Bienvenido a</string>
+    <string name="DispositivosC">Dispositivos Conectados</string>
+    <string name="DispositivosL">Última falla</string>
+    <string name="title_activity_nano_station">NanoStationActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="MenuHome">Inicio</string>
+    <string name="empresa"><u>ROFOMEX</u></string>
+    <string name="nuevaip">IP</string>
+    <string name="usuarios">Usuarios</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="Syncn">Iniciando sesión</string>
+    <string name="wait">Espere por favor...</string>
+</resources>

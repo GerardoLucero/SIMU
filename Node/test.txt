@@ -1,0 +1,5 @@
+{fecha:Fri Jun 02 2017 12:44:33 GMT-0600 (Hora verano, Montañas (México)), ping:396.30901700000004, subida:1.119, bajada:0.803, servidor:speedtest1-culiacan.triara.com} 
+{fecha:Fri Jun 02 2017 12:50:09 GMT-0600 (Hora verano, Montañas (México)), ping:381.886435, subida:0.965, bajada:1.04, servidor:speedtest.cln.megared.net.mx} 
+{fecha:Fri Jun 02 2017 12:51:15 GMT-0600 (Hora verano, Montañas (México)), ping:393.553651, subida:1.674, bajada:1.217, servidor:speedtest1-culiacan.triara.com} 
+{fecha:Fri Jun 02 2017 12:57:41 GMT-0600 (Hora verano, Montañas (México)), ping:386.94642, subida:1.077, bajada:0.921, servidor:speedtest.cln.megared.net.mx} 
+{fecha:Fri Jun 02 2017 12:59:02 GMT-0600 (Hora verano, Montañas (México)), ping:391.585167, subida:1.298, bajada:1.236, servidor:speedtest1-culiacan.triara.com} 

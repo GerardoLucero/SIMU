@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="@string/MenuHome"/>
+        <item
+            android:id="@+id/Radios"
+            android:icon="@drawable/wifi_signal4"
+            android:title="@string/radios" />
+        <item
+            android:id="@+id/logFile"
+            android:icon="@drawable/calendar1"
+            android:title="@string/bitacora" />
+        <item
+            android:id="@+id/SpeedTest"
+            android:icon="@drawable/rss"
+            android:title="@string/speed" />
+
+    </group>
+
+    <item android:title=" . . .">
+        <menu>
+
+            <item
+                android:id="@+id/configuracion"
+                android:icon="@drawable/settings6"
+                android:title="@string/config" />
+            <item
+                android:id="@+id/salir"
+                android:icon="@drawable/lock"
+                android:title="@string/logOut" />
+        </menu>
+    </item>
+
+</menu>

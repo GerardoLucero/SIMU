@@ -1,0 +1,235 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBackgroud"
+    tools:context="com.example.topitzin.simu.RadioFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name_undeline"
+            android:textSize="55sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/colorAppName"
+            android:id="@+id/editText2"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombre"
+            android:padding="10dp"
+            android:text="@string/radios"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/white_border_top"/>
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/correo"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorNegro"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:layout_gravity="center_vertical"
+                        android:text="" />
+                    <android.support.v4.widget.Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorNegro"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        android:theme="@style/MySwitch"
+                        android:text="Administrador  "
+                        android:layout_margin="@dimen/fab_margin"
+                        android:id="@+id/admin"
+                        />
+                </LinearLayout>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/norifi"
+                    android:padding="10dp"
+                    android:text="@string/notificaciones"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="22sp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@drawable/white_border_top"/>
+
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/colorNegro"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:text="Aplicación" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="20sp"
+                            android:textColor="@color/colorNegro"
+                            android:gravity="center"
+                            android:text="Correo Electronico" />
+                    </LinearLayout>
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+                            <android.support.v7.widget.SwitchCompat
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorNegro"
+                                android:theme="@style/MySwitch"
+                                android:layout_gravity="center"
+                                android:layout_margin="@dimen/fab_margin"
+                                android:id="@+id/push"
+                                android:gravity="center"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <android.support.v7.widget.SwitchCompat
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorNegro"
+                                android:layout_margin="@dimen/fab_margin"
+                                android:layout_gravity="center"
+                                android:theme="@style/MySwitch"
+
+                                android:id="@+id/email"
+                                android:gravity="center"/>
+                        </FrameLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:layout_margin="@dimen/fab_margin">
+
+            <android.support.design.widget.
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:menu="@menu/navegacion_menu"
+                >
+
+
+            </android.support.design.widget.>
+
+            <!--android.support.design.widget.FloatingActionButton
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/eliminar"
+                android:src="@drawable/garbage"
+                app:backgroundTint="@color/colorEmpresa"
+                android:layout_alignParentEnd="true"/>
+
+            <android.support.design.widget.FloatingActionButton
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/edit"
+                android:id="@+id/modificar"
+                app:backgroundTint="@color/colorBarra"
+                android:layout_centerHorizontal="true"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/previous"
+                app:backgroundTint="@color/colorPrimary"
+                android:id="@+id/back"/-->
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
